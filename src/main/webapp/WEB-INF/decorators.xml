@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+	<encludes>
+		<pattern>/api*</pattern>
+	</encludes>
+
+	<decorator name="chu-cua-hang" page="admin.jsp">
+		<pattern>/chu-cua-hang*</pattern>
+	</decorator>
+
+	<decorator name="thong-tin-ca-nhan" page="custom.jsp">
+		<pattern>/thong-tin-ca-nhan*</pattern>
+		<pattern>/thanh-toan*</pattern>
+	</decorator>
+	
+	<decorator name="customer" page="customer.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+
+	<decorator name="auth" page="auth.jsp">
+		<pattern>/dang-nhap</pattern>
+	</decorator>
+
+</decorators>
